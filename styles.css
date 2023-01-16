@@ -538,3 +538,48 @@ a:hover {
     transition: all 0.3s;
   }
 }
+
+
+@media (max-width: 767px) {
+
+  .skill__item {
+    font-size: 50px;
+    padding: 5px;
+    min-width: 75px;
+    height: auto;
+  }
+
+
+  .about__skills {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .skill__title {
+    grid-column: span 3;
+  }
+
+}
+
+
+@media (max-width: 582px) {
+
+  .skill__item {
+    font-size: 50px;
+    padding: 5px;
+    min-width: 75px;
+    height: auto;
+  }
+
+
+  .about__skills {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .skill__title {
+    grid-column: span 2;
+  }
+
+}
+
+
+
